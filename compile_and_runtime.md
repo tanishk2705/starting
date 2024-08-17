@@ -27,9 +27,9 @@ int main() {
 Runtime refers to the phase when the compiled program is actually executed on a computer.
 
 During runtime:
--The program is loaded into memory
--Instructions are executed sequentially
--Dynamic behaviors of the program occur
+- The program is loaded into memory
+- Instructions are executed sequentially
+- Dynamic behaviors of the program occur
 
 ### Example of a RunTime Error
 
