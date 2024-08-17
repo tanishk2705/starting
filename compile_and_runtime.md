@@ -22,4 +22,39 @@ int main() {
 }
 ```
 
+## Runtime
 
+Runtime refers to the phase when the compiled program is actually executed on a computer.
+
+During runtime:
+-The program is loaded into memory
+-Instructions are executed sequentially
+-Dynamic behaviors of the program occur
+
+### Example of a RunTime Error
+
+```py
+def divide(x, y):
+    return x / y
+
+a = 10
+b = int(input("Enter a number: "))
+result = divide(a, b)
+print(result)
+```
+
+## Key Differences Between Compile Time and Runtime
+
+1. **Error Occurrence and Detection**:
+   - Compile-time errors prevent the program from running at all.
+   - Runtime errors occur during program execution.
+
+2. **Speed and Efficiency**:
+   - Compile-time checks are generally faster and can catch many errors before the program runs.
+   - Runtime checks occur during execution, which can impact performance.
+
+3. **Types of Issues Detected**:
+   - Compile-time checks can detect syntax errors, type mismatches, and other static issues.
+   - Some issues, especially those involving user input or dynamic behavior, can only be detected at runtime.
+
+These differences highlight the importance of both compile-time and runtime checks in developing robust and efficient C++ programs.
